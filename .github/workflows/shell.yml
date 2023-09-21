@@ -1,0 +1,19 @@
+name: Shell Commands
+
+on:
+  push:
+    branches:
+      - master 
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: Echo String 
+        run: echo "DevOps"
+
+      - name: Multiline Script
+        run: |
+          node -v
+          npm -v
