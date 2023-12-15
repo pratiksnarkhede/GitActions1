@@ -10,11 +10,7 @@ jobs:
     runs-on: ubuntu-latest
       
     steps:
-      - name: Echo String 
-        run: echo "DevOps"
+      - name: list the current directory 
+        run: pwd
 
-      - name: Multiline Script
-        run: |
-          node -v
-          npm -v
-          pwd
+  
