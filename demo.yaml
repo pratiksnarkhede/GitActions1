@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
       
     steps:
-      - name: list the current directory 
-        run: pwd
+      - name: list the all  directory 
+        run: ls
 
   
